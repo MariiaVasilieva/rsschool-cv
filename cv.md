@@ -6,6 +6,7 @@
 * e-mail: vasilyeva.mariia@gmail.com
 * GitHub: @MariiaVasilieva
 * [My linkedin](https://www.linkedin.com/in/mariia-vasileva-ba73a494/ "личная страница")
+
 #### ___About Me___
 ---
 I’m student in RSSchool! I want to become Front-End Development.
@@ -17,6 +18,7 @@ I like to learn new, to travel, to learn foreign languages and embroider.
 - CSS 
 - JavaScript 
 - Figma
+
 #### ___Code example___
 ---
 Calculator
@@ -46,6 +48,7 @@ alert( "Mul=" + calculator.mul() );
 -	CS50 lectures
 -	HTML CSS
 -	JS	
+
 #### ___Languages___
 ---
 -	Russian - native speaker
