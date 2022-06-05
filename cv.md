@@ -21,8 +21,9 @@ I like to learn new, to travel, to learn foreign languages and embroider.
 
 #### ___Code example___
 ---
-Calculator
-```function Calculator() {
+Calculator 
+
+``` function Calculator() {
  this.read = function () {
    this.a = +prompt ('a?', 0);
    this.b = +prompt ('b?', 0);
@@ -41,8 +42,9 @@ let calculator = new Calculator();
 calculator.read();
 
 alert( "Sum=" + calculator.sum() );
-alert( "Mul=" + calculator.mul() );
+alert( "Mul=" + calculator.mul() ); 
 ```
+
 #### ___Education___
 ---
 -	CS50 lectures
