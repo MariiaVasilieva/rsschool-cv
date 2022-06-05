@@ -4,6 +4,7 @@ Junior Frontend Developer
 
 * e-mail: vasilyeva.mariia@gmail.com
 * GitHub: @MariiaVasilieva
+* [My linkedin](https://www.linkedin.com/in/mariia-vasileva-ba73a494/ "личная страница")
 ### About Me
 I’ m student in RSSchool! I want to become Front-End Development.
 I like to learn new, to travel, to learn foreign languages and embroider.
