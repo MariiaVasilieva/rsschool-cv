@@ -1,20 +1,24 @@
 # Mariia Vasilieva
-*Junior Frontend Developer*
-## Contact information:
 
+*Junior Frontend Developer*
+#### ___Contact information___
+---
 * e-mail: vasilyeva.mariia@gmail.com
 * GitHub: @MariiaVasilieva
 * [My linkedin](https://www.linkedin.com/in/mariia-vasileva-ba73a494/ "личная страница")
-### About Me
-I’ m student in RSSchool! I want to become Front-End Development.
+#### ___About Me___
+---
+I’m student in RSSchool! I want to become Front-End Development.
 I like to learn new, to travel, to learn foreign languages and embroider.
 
-#### Skills
+#### ___Skills___
+---
 - HTML 
 - CSS 
 - JavaScript 
 - Figma
-##### Code example:
+#### ___Code example___
+---
 Calculator
 ```function Calculator() {
  this.read = function () {
@@ -37,12 +41,13 @@ calculator.read();
 alert( "Sum=" + calculator.sum() );
 alert( "Mul=" + calculator.mul() );
 ```
-##### Education:
+#### ___Education___
+---
 -	CS50 lectures
 -	HTML CSS
--	JS
-
-###### Languages
+-	JS	
+#### ___Languages___
+---
 -	Russian - native speaker
 - English – Pre-intermediate
 - French - B2-C1
