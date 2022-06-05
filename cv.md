@@ -1,5 +1,5 @@
 # Mariia Vasilieva
-Junior Frontend Developer
+*Junior Frontend Developer*
 ## Contact information:
 
 * e-mail: vasilyeva.mariia@gmail.com
@@ -16,7 +16,7 @@ I like to learn new, to travel, to learn foreign languages and embroider.
 - Figma
 ##### Code example:
 Calculator
-function Calculator() {
+```function Calculator() {
  this.read = function () {
    this.a = +prompt ('a?', 0);
    this.b = +prompt ('b?', 0);
@@ -36,6 +36,7 @@ calculator.read();
 
 alert( "Sum=" + calculator.sum() );
 alert( "Mul=" + calculator.mul() );
+```
 ##### Education:
 -	CS50 lectures
 -	HTML CSS
