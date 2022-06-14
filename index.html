@@ -4,31 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="mariia, cv, resume">
-    <meta name="description" content="Сайт-резюме Марии Васильевой">
-    <title>Резюме</title>
-  
-    <link rel="stylesheet" href="01_selectors1.css">
-   </head>
-        <body>
-
-    <div class="container">
-        <div class="header">
-
-            <div class="info">
-    
-                 <img src="images1/1_1.jpg" alt="Мария Васильева" class="avatar">
-     
-      
-               <div class="info-text">
-             <h2>Мария Васильева</h2>
-           
-                 <p>Гуманитарий, который решил сломать систему и войти в IT. Сейчас создаю броши своими руками и отправляю их в разные уголки Мира. 
-                 <br> Решила исполнить школьную мечту-стать программистом. 
-                 <br> 
-                  И вот, я... Начинающий Front End-разработчик. </p> 
-                
-                </div>
+    <title>CV#3. CV Cross-Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="header__menu"> 
+            <ul> 
+                <li><a href = "#contacts">Contact information</a></li> 
+                <li><a href = "#about__myself">About Myself</a></li> 
+                <li><a href = "#skills">Skills</a></li> 
+                <li><a href = "#code__example">Code example</a></li>              
+                <li><a href = "#languages">Languages</a></li> 
+            </ul> 
+        </nav> 
+        <div class="avatar">
+            <img src="https://i.pinimg.com/564x/0f/af/85/0faf85a8b464f0f1de608e969418017d.jpg" alt="Мария Васильева" class="avatar">            
         </div>
-    </div>
-</header>
+        <div class="info">
+            <h1 class="name">Mariia Vasilieva</h1>
+            <p class="speciality">Junior<br>Frontend Developer</p>
+        </div>        
+    </header>
+    <main class="main">
+        <section class="section__contacts" id="contacts">
+            <div class="contacts__list">
+                <h2>Contacts</h2>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="mailto:vasilyeva.mariia@gmail.com" target="_blank">E-mail</a></li>
+                        <li><a href="http://t.me/MariiaVasilieva" target="_blank">Telegram</a></li>
+                        <li><a href="https://www.linkedin.com/in/mariia-vasileva" target="_blank">My linkedin</a></li>
+                    </ul>
+                </nav>                  
+            </div>      
+        </section>
+        <section id="about__myself">
+            <div class="about">
+                <h2>About Myself</h2>
+                <p>I am student in RSSchool! <br> I want to become Front-End Development. I like to learn new, to travel, to learn foreign languages and embroider.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills__info">
+                <h2 class="contacts__list">Skills</h2>
+                <ul>
+                    <li>HTML CSS</li>
+                    <li>JS</li>
+                    <li>RSSchool</li>            
+                </ul>
+            </div>
+        </section>        
+        <section id="code__example">
+            <div class="code__container">
+                <h2 class="section__title">Code example</h2>
+                <h4>Calculator</h4>
+                    <pre>
+                        <code>
+                            this.read = function () {
+                                this.a = +prompt ('a?', 0);
+                                this.b = +prompt ('b?', 0);
+                            }
+                            
+                            this.sum = function () {
+                                return this.a + this.a;
+                            }
+                            
+                            this.mul = function () {
+                                return this.a*this.a;
+                            }
+                            }
+                            
+                            let calculator = new Calculator();
+                            calculator.read();
+                            
+                            alert( "Sum=" + calculator.sum() );
+                            alert( "Mul=" + calculator.mul() ); 
+                        </code>
+                    </pre>
+            </div> 
+        </section>       
+        <section id="languages">
+            <div class="languages__info">
+                <h2 class="contacts__list">Languages</h2>
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English – Pre-intermediate</li>
+                        <li>French - B2-C1</li> 
+                        <li>Spanish - A2</li>                
+                    </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <span class="footer__year">© 2022</span>
+        <a href="https://github.com/MariiaVasilieva" id="github">
+          <img class="footer__icon-git" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon">
+        </a>
+        <a href="https://rs.school/js/">
+          <img  class="footer__icon-rsschool" src="https://rs.school/images/rs_school_js.svg" alt="RSSCHOOL">
+        </a>
+      </footer>
+</body>
+</html>
